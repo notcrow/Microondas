@@ -1,0 +1,15 @@
+"INSERT INTO public.programaaquecimento(
+	id, nomeprograma, alimento, tempo, potencia, simbolo, instrucoes, padrao)
+	VALUES (?, ?, ?, ?, ?, ?, ?, ?);"
+
+"id,""nomeprograma"",""alimento"",""tempo"",""potencia"",""simbolo"",""instrucoes"",""padrao"""
+"1,""Aquecimento"",""Aquecimento                                       "",120,10,""."",""Aquecimento"",False"
+"2,""Pipoca"",""Pipoca (de micro-ondas)                           "",180,7,""*"",""Observar o barulho de estouros do milho, caso houver um intervalo de mais de 10 segundos entre um estouro e outro, interrompa o aquecimento."",True"
+"3,""Leite"",""Leite                                             "",300,5,""%"",""Cuidado com aquecimento de líquidos, o choque térmico aliado ao movimento do recipiente pode causar fervura imediata causando risco de queimaduras."",True"
+"4,""Boi"",""Carne em pedaço ou fatias                         "",840,4,""#"",""Interrompa o processo na metade e vire o conteúdo com a parte de baixo para cima para o descongelamento uniforme."",True"
+"5,""Frango"",""Frango (qualquer corte)                           "",480,7,""$"",""Interrompa o processo na metade e vire o conteúdo com a parte de baixo para cima para o descongelamento uniforme."",True"
+"6,""Feijão"",""Feijão congelado                                  "",480,9,"":"",""Deixe o recipiente destampado e em casos de plástico, cuidado ao retirar o recipiente pois o mesmo pode perder resistência em altas temperaturas."",True"
+"8,""Milho"",""milho                                             "",120,10,""~"",""Milho em espiga"",False"
+"9,""Lasanha"",""Massas congeladas                                 "",840,7,""<"",""Remover o plastico antes de aquecer"
+",False
+"
